@@ -15,16 +15,6 @@
     "email": "hello@bu0nq.ru"
   },
   "main": "grids.scss",
-  "files": [
-    "grids.scss",
-    "variables.scss.scss"
-  ],
-  "exports": {
-    ".": {
-      "sass": "./grids.scss",
-      "default": "./grids.scss"
-    }
-  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
