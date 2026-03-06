@@ -15,7 +15,7 @@
 }
 
 @mixin class-column-end-3 {
-  &_grid-column-end-3 {
+  &.grid-column-end-3 {
     grid-column-end: 4;
     @content;
   }
