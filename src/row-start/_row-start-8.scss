@@ -1,0 +1,29 @@
+@use "../../variables";
+
+@mixin row-start-8($is-class-row-start: variables.$is-class-row-start, $is-data-row-start: variables.$is-data-row-start) {
+  @if $is-class-row-start {
+    @include class-row-start-8 {
+      @content;
+    }
+  }
+
+  @if $is-data-row-start {
+    @include data-row-start-8 {
+      @content;
+    }
+  }
+}
+
+@mixin class-row-start-8 {
+  &_grid-row-start-8 {
+    grid-row-start: 8;
+    @content;
+  }
+}
+
+@mixin data-row-start-8 {
+  &[data-grid-row-start="8"] {
+    grid-row-start: 8;
+    @content;
+  }
+}
