@@ -1,0 +1,25 @@
+// Variable for displaying modifier classes
+$is-class: true !default;
+
+$is-class-column-start: $is-class !default;
+$is-class-column-end: $is-class !default;
+$is-class-column-gap: $is-class !default;
+
+$is-class-gap: $is-class !default;
+
+$is-class-row-start: $is-class !default;
+$is-class-row-end: $is-class !default;
+$is-class-row-gap: $is-class !default;
+
+// Variable for displaying modifier attributes
+$is-data: true !default;
+
+$is-data-column-start: $is-data !default;
+$is-data-column-end: $is-data !default;
+$is-data-column-gap: $is-data !default;
+
+$is-data-gap: $is-data !default;
+
+$is-data-row-start: $is-data !default;
+$is-data-row-end: $is-data !default;
+$is-data-row-gap: $is-data !default;
