@@ -1,5 +1,5 @@
 {
-  "name": "@bu0nq/scss.mixins.grids",
+  "name": "@bu0nq/scss.mixin.grids",
   "version": "0.1.0",
   "description": "Package for integrating SCSS.Mixin.Grid",
   "keywords": [
@@ -23,9 +23,9 @@
     "url": "git+https://github.com/bu0nq/scss.mixins.grids.git"
   },
   "bugs": {
-    "url": "https://github.com/bu0nq/scss.mixins.grids/issues"
+    "url": "https://github.com/bu0nq/scss.mixin.grids/issues"
   },
-  "homepage": "https://github.com/bu0nq/scss.mixins.grids#readme",
+  "homepage": "https://github.com/bu0nq/scss.mixin.grids#readme",
   "publishConfig": {
     "access": "public"
   }
